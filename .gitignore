@@ -1,0 +1,87 @@
+## === .NET / Visual Studio ===
+# Build klasörleri
+bin/
+obj/
+out/
+
+# Kullanýcý ayarlarý
+*.user
+*.userosscache
+*.sln.docstates
+*.suo
+
+# VS klasörleri
+.vs/
+.vscode/
+
+# ReSharper dosyalarý
+_ReSharper*/
+*.DotSettings.user
+
+# Rider
+.idea/
+
+# Temporary ASP.NET files
+**/App_Data/
+**/App_Start/
+**/aspnet-client/
+
+# Publish klasörleri
+**/publish/
+**/PublishProfiles/
+
+# Npm / node_modules (frontend varsa)
+node_modules/
+npm-debug.log
+yarn-error.log
+package-lock.json
+
+# Logs
+*.log
+
+## === GÝZLÝ BÝLGÝLER ===
+# AppSettings (gizli bilgiler içerir)
+appsettings.json
+appsettings.Development.json
+appsettings.Production.json
+
+# Ortam deðiþkenleri dosyasý
+.env
+.env.*
+
+# Veritabaný dosyalarý (local SQL)
+*.mdf
+*.ldf
+
+# SQLite (eðer varsa)
+*.db
+*.sqlite
+*.sqlite3
+
+## === EF Core Migration Ayarlarý ===
+# Bazý cache dosyalarý
+**/Migrations/DesignTimeBuild/
+
+## === Testler & Coverage ===
+TestResults/
+coverage/
+*.coverage
+*.coveragexml
+
+## === Git ===
+# Git ignore dosyasýnýn kendisi hariç her þey
+*.orig
+*.rej
+
+# OS/IDE dosyalarý
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Backup dosyalarý
+*.bak
+*.tmp
+*.old
+*.swp
+*.swn
+*.swo
